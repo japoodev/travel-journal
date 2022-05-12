@@ -1,0 +1,85 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    width: 550px;
+    margin: auto;
+    min-width: 550px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    background-color: #F55A5A;
+    height: 30px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.fa-globe {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.heading {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    padding: 18px 40px 18px 40px;
+    align-items: center;
+}
+.content {
+    margin-left: 19px;
+}
+.fa-map-marker {
+    font-size: 13px;
+    color: #F55A5A;
+}
+.location > a {
+    font-size: 10.24px;
+    color: #918E9B;
+    margin-left: 12px;
+}
+.country {
+    font-size: 11px;
+    letter-spacing: 0.17em;
+    margin-left: 5px;
+}
+.image {
+    width: 126px;
+    height: 168px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card-heading {
+    font-size: 25px;
+    margin: 0px;
+    padding-block: 7px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-weight: 700;
+    font-size: 11px;
+    padding-block: 9px;
+}
+
+.description {
+    margin: 0px;
+    margin-top: 9px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+hr {
+    margin: 0 40px 0 40px;
+    border: 1px solid #F5F5F5;
+}
